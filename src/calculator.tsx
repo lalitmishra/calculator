@@ -54,6 +54,7 @@ class Calculator extends React.Component <any> {
     render() {
         return (
             <div className='parent'>
+                <h1>{'Calculator'}</h1>
                 <div className='display'>
                     <Display className='display-row' value={this.props.historyDisplay}/>
                     <Display className='display-row' value={this.props.displayValue}/>

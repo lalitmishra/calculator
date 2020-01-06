@@ -9,6 +9,7 @@ import defaultStore from './model/initState';
 
 let store = createStore(RootReducer, defaultStore, window.devToolsExtension && window.devToolsExtension());
 const rootElement = document.getElementById('root');
+document.title = 'Calculator';
 ReactDOM.render(
     <Provider store={store}>
         <Calculator />
